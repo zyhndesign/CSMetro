@@ -64,6 +64,9 @@
 		D5323A1318E11F7000C2758E /* libWeChatSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = D5323A0C18E11F6F00C2758E /* libWeChatSDK */; };
 		D5323C6518E127D200C2758E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D5323C6418E127D200C2758E /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D5323C6718E1293100C2758E /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5323C6618E1293100C2758E /* libsqlite3.0.dylib */; };
+		D5A4630218E13840004FD659 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A4630118E13840004FD659 /* HomeViewController.m */; };
+		D5A4630518E138EB004FD659 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A4630418E138EB004FD659 /* SettingViewController.m */; };
+		D5A4630818E1390D004FD659 /* CollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A4630718E1390D004FD659 /* CollectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +228,12 @@
 		D5323C6318E127D200C2758E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		D5323C6418E127D200C2758E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		D5323C6618E1293100C2758E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D5A4630018E13840004FD659 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D5A4630118E13840004FD659 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D5A4630318E138EB004FD659 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		D5A4630418E138EB004FD659 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		D5A4630618E1390D004FD659 /* CollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewController.h; sourceTree = "<group>"; };
+		D5A4630718E1390D004FD659 /* CollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +334,7 @@
 		D532386C18E1115300C2758E /* CSMetro */ = {
 			isa = PBXGroup;
 			children = (
+				D5A462FF18E137BA004FD659 /* classes */,
 				D532388018E1150E00C2758E /* libs */,
 				D532386D18E1115300C2758E /* AppDelegate.h */,
 				D532386E18E1115300C2758E /* AppDelegate.m */,
@@ -572,6 +582,19 @@
 			path = WX;
 			sourceTree = "<group>";
 		};
+		D5A462FF18E137BA004FD659 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5A4630018E13840004FD659 /* HomeViewController.h */,
+				D5A4630118E13840004FD659 /* HomeViewController.m */,
+				D5A4630318E138EB004FD659 /* SettingViewController.h */,
+				D5A4630418E138EB004FD659 /* SettingViewController.m */,
+				D5A4630618E1390D004FD659 /* CollectViewController.h */,
+				D5A4630718E1390D004FD659 /* CollectViewController.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -685,9 +708,11 @@
 				D53239D918E11B6500C2758E /* FMResultSet.m in Sources */,
 				D53239C318E11B2800C2758E /* AFHTTPSessionManager.m in Sources */,
 				D5323C6518E127D200C2758E /* JSONKit.m in Sources */,
+				D5A4630518E138EB004FD659 /* SettingViewController.m in Sources */,
 				D53239EE18E11CE400C2758E /* SidebarFacebookAnimation.m in Sources */,
 				D53239AB18E1198E00C2758E /* OpenUDID.m in Sources */,
 				D532387D18E1115300C2758E /* ViewController.m in Sources */,
+				D5A4630818E1390D004FD659 /* CollectViewController.m in Sources */,
 				D53239F118E11CE400C2758E /* SidebarLuvocracyAnimation.m in Sources */,
 				D53239C518E11B2800C2758E /* AFSecurityPolicy.m in Sources */,
 				D532387F18E1115300C2758E /* main.m in Sources */,
@@ -698,6 +723,7 @@
 				D53239F018E11CE400C2758E /* SidebarFlipboardAnimation.m in Sources */,
 				D53239D718E11B6500C2758E /* FMDatabasePool.m in Sources */,
 				D53239C818E11B2800C2758E /* AFURLResponseSerialization.m in Sources */,
+				D5A4630218E13840004FD659 /* HomeViewController.m in Sources */,
 				D532387918E1115300C2758E /* AppDelegate.m in Sources */,
 				D53239ED18E11CE400C2758E /* SidebarAnimation.m in Sources */,
 			);
@@ -946,6 +972,7 @@
 				D532385D18E10B4900C2758E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D532385E18E10B4900C2758E /* Build configuration list for PBXNativeTarget "CSMetroTests" */ = {
 			isa = XCConfigurationList;
@@ -954,6 +981,7 @@
 				D532386018E10B4900C2758E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
