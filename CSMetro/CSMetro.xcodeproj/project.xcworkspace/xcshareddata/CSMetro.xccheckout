@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77930BB4-D56F-4A45-BE28-AF28EA332E34</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CSMetro</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>37E06543-FCDC-46A2-BDF0-35051091113F</key>
+		<string>https://192.168.1.137/svn/DesignDoc</string>
+		<key>6FD4869B-CD36-45EA-B62B-9280DB0F9A55</key>
+		<string>https://github.com/zyhndesign/CSMetro.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CSMetro/CSMetro.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>37E06543-FCDC-46A2-BDF0-35051091113F</key>
+		<string>../../../../../../MAC_DATA</string>
+		<key>6FD4869B-CD36-45EA-B62B-9280DB0F9A55</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>37E06543-FCDC-46A2-BDF0-35051091113F</key>
+		<string>https://192.168.1.137/svn/DesignDoc</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zyhndesign/CSMetro.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6FD4869B-CD36-45EA-B62B-9280DB0F9A55</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6FD4869B-CD36-45EA-B62B-9280DB0F9A55</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CSMetro</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>37E06543-FCDC-46A2-BDF0-35051091113F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MAC_DATA</string>
+		</dict>
+	</array>
+</dict>
+</plist>
